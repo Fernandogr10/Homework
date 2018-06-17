@@ -10,29 +10,28 @@
 		<hr>
 		<small>PHP</small>
 
-		
-		<h3>Meus Cursos</h3>
-                <?php $cursos = array("Shell Script", "PHP", "Microcontroladores"); ?> 
-			<h4>Conteúdo do Array: </h4>
-			<p><?php echo "$cursos[0], $cursos[1], $cursos[2]";  ?></p>
+<h3>Programa do Bimestre</h3>
+ <?php $conteudo = array("Shell", "PHP", "Microcontrol");?>   
+		<h4> Conteúdo</h4>
+<p><?php echo"$conteudo[0], $conteudo[1], $conteudo[2]";?></p>
 			<br>
 
 
-		<h3>Informação do Curso</h3>
+		<h3> </h3>
 
-			<h4>Título: </h4>
+			<h4>  </h4>
 			<p><?php  ?></p>
 			<br>
 
-			<h4>Número de Avaliações: </h4>
+			<h4>  </h4>
 			<p><?php  ?></p>
 			<br>
 
-			<h4>URL: </h4>
+			<h4>  </h4>
 			<p><?php  ?></p>
 			<br>
 
-			<h4>URL da foto: </h4>
+			<h4>  </h4>
 			<p><?php  ?></p>
 			<br>
 		
@@ -41,6 +40,11 @@
 
 			<p>Crie um Array e solte as suas informações em sequência. Pesquise também funções que podem ser aplicadas neste tipo de dados.</p>
 			<br>
+
+
+
+
+
 
 
 

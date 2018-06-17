@@ -20,7 +20,7 @@
 			 <?php while ($ano > 1980){ ?>
 				
 				<option><?php echo $ano; ?> </option>
-				<?php $ano = $ano - 1; ?>
+				<?php $ano = $ano - 1; ?> <!-- $ano - = 1 ou $ano --*/ -->
 				
 			 <?php } ?>
 		</select>
@@ -29,11 +29,11 @@
 
 		<select>
 			<option>Selecione o ano</option>
-			<option>2090</option>
-			<option>2091</option>
-			<option>2092</option>
-			<option>2093</option>
-			<option>2094</option>
+			<?php for ($ano = $ano_atual ; $ano < 2070 ; $ano = $ano + 1) { ?>
+ 				
+				<option> <?php echo $ano; ?> </option>
+				
+			<?php } ?>
 		</select>
 
 			
@@ -48,13 +48,6 @@
 
 		<p>apresente aqui os anos</p>
 		<br>
-
-		
-
-		
-
-
-
 
 
 

@@ -8,20 +8,17 @@
 
 		<h2>BOOLEANS</h2>
 		<hr>
-		<small> PHP</small>
+		<small>PHP</small>
 
 		<h3>True ou False?</h3><br>
 		
-		<p></p>
-
-
-
-
-
-
-
-
-
+		<?php $teste = 10 > 20; ?>
+		
+		  <!-- <p> <//?php echo $teste ?></p> --> 
+	          <p> <?php var_dump($teste); ?></p>				
+		 <br>
+		 
+		<h4>Pesquise os Operadores de Comparação e use-os</h4>
 
 	</body>
 
